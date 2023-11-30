@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Wooof</string>
+    <string name="onboarding_alt_first_image">Happy dog sat</string>
+    <string name="onboarding_alt_second_image">woman with an happy dog in her hands</string>
+    <string name="onboarding_alt_third_image">Dog with ball in his mouth</string>
+    <string name="onboarding_first_title" >Keep these little creatures</string>
+    <string name="onboarding_first_subtitle">From time to time, and around your home.</string>
+    <string name="onboarding_second_title">Makes 2 happy.  The master, the beast.</string>
+    <string name="onboarding_third_title">Get paid, fast.</string>
+    <string name="onboarding_third_subtitle">In less than 24 hours, the money is transferred to your account.</string>
+    <string name="onboarding_second_subtitle">Allow pet owners to do activities.</string>
+</resources>

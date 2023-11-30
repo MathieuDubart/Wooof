@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wooof</string>
+    <string name="onboarding_alt_first_image">Chien joyeux assis</string>
+    <string name="onboarding_alt_second_image">Femme tenant un chien heureux dans les mains</string>
+    <string name="onboarding_alt_third_image">Chien avec un balle dans sa bouche</string>
+    <string name="onboarding_first_title">Garde ces petites créatures</string>
+    <string name="onboarding_first_subtitle">De temps en temps, et autour de chez toi.</string>
+    <string name="onboarding_second_title">Fait 2 heureux.  Le maître, la bête.</string>
+    <string name="onboarding_third_title">Soit rémunéré, rapidement.</string>
+    <string name="onboarding_second_subtitle">Permets aux maîtres d’animaux de faire des activités.</string>
+    <string name="onboarding_third_subtitle">En moins de 24h, l’argent est  transféré sur ton compte.</string>
+</resources>
