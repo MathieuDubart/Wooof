@@ -10,4 +10,8 @@
     <string name="onboarding_third_title">Soit rémunéré, rapidement.</string>
     <string name="onboarding_second_subtitle">Permets aux maîtres d’animaux de faire des activités.</string>
     <string name="onboarding_third_subtitle">En moins de 24h, l’argent est  transféré sur ton compte.</string>
+    <string name="onboarding_alt_background">Fond du texte</string>
+    <string name="close">Fermer</string>
+    <string name="textfield_label">Chercher</string>
+    <string name="filter_alt">Bouton Icône Filtre</string>
 </resources>

@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gold">#FFE6B75A</color>
     <color name="subtitle">#80000000</color>
+    <color name="background">#FFFCFCFC</color>
+    <color name="shadow">#08001226</color>
 </resources>

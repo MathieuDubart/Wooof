@@ -9,4 +9,8 @@
     <string name="onboarding_third_title">Get paid, fast.</string>
     <string name="onboarding_third_subtitle">In less than 24 hours, the money is transferred to your account.</string>
     <string name="onboarding_second_subtitle">Allow pet owners to do activities.</string>
+    <string name="onboarding_alt_background">Text background</string>
+    <string name="close">Close</string>
+    <string name="textfield_label">Search</string>
+    <string name="filter_alt" >Filter icon button</string>
 </resources>
