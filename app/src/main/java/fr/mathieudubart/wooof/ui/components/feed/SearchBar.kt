@@ -68,6 +68,7 @@ fun CustomSearchBar() {
             placeholder = {
                 Text(
                     stringResource(id = R.string.textfield_label),
+                    
                     fontFamily = montserratFamily,
                     fontWeight = FontWeight(600),
                     fontSize = 14.sp

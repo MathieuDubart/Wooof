@@ -21,6 +21,7 @@ fun FeedComponent(modifier: Modifier = Modifier) {
 
     Column(Modifier.padding(24.dp)) {
         CustomSearchBar()
+        NearYou()
     }
 }
 

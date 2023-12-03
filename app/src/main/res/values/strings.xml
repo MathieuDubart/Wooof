@@ -13,4 +13,6 @@
     <string name="close">Close</string>
     <string name="textfield_label">Search</string>
     <string name="filter_alt" >Filter icon button</string>
+    <string name="near_you_title">Near you</string>
+    <string name="on_map">On map</string>
 </resources>

@@ -14,4 +14,6 @@
     <string name="close">Fermer</string>
     <string name="textfield_label">Chercher</string>
     <string name="filter_alt">Bouton Icône Filtre</string>
+    <string name="near_you_title">Près de toi</string>
+    <string name="on_map">Sur la carte</string>
 </resources>
