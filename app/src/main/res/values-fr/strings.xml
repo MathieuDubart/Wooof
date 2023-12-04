@@ -15,5 +15,8 @@
     <string name="textfield_label">Chercher</string>
     <string name="filter_alt">Bouton Icône Filtre</string>
     <string name="near_you_title">Près de toi</string>
-    <string name="on_map">Sur la carte</string>
+    <string name="on_map">Sur la carte ></string>
+    <string name="card_box_description">Illustration de la carte</string>
+    <string name="add_to_favorite">Ajouter aux favoris</string>
+    <string name="icon_verify">Icône Vérifié</string>
 </resources>

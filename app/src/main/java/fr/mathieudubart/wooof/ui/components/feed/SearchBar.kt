@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -29,17 +30,19 @@ import androidx.compose.ui.tooling.preview.Preview
 import fr.mathieudubart.wooof.R
 import fr.mathieudubart.wooof.ui.theme.WooofTheme
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.unit.times
 import fr.mathieudubart.wooof.utils.montserratFamily
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun CustomSearchBar() {
     var text by remember { mutableStateOf("") }
-
+    val screenWidth = LocalConfiguration.current.screenWidthDp
     Row(
         modifier = Modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.Center,
@@ -55,6 +58,7 @@ fun CustomSearchBar() {
                     shape = RoundedCornerShape(16.dp)
                 )
                 .padding(end = 16.dp)
+                .width(3*(screenWidth/4).dp)
                 .height(48.dp),
             value = text,
             leadingIcon = {

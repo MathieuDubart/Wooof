@@ -14,5 +14,8 @@
     <string name="textfield_label">Search</string>
     <string name="filter_alt" >Filter icon button</string>
     <string name="near_you_title">Near you</string>
-    <string name="on_map">On map</string>
+    <string name="on_map">On map ></string>
+    <string name="card_box_description">Card Illustration</string>
+    <string name="add_to_favorite">Add to favorite</string>
+    <string name="icon_verify">Icon Verify</string>
 </resources>
