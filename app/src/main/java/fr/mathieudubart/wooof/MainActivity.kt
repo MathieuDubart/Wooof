@@ -3,7 +3,6 @@ package fr.mathieudubart.wooof
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Button
@@ -13,14 +12,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.tooling.preview.Preview
 import fr.mathieudubart.wooof.models.Product
 import fr.mathieudubart.wooof.managers.ProductsManager
-import fr.mathieudubart.wooof.ui.components.onboarding.OnBoardingPager
+import fr.mathieudubart.wooof.ui.components.on_boarding.OnBoardingPager
 import fr.mathieudubart.wooof.ui.theme.WooofTheme
-import fr.mathieudubart.wooof.utils.SetStatusBarColor
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController

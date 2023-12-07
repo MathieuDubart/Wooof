@@ -1,4 +1,4 @@
-package fr.mathieudubart.wooof.ui.components.onboarding
+package fr.mathieudubart.wooof.ui.components.on_boarding
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background

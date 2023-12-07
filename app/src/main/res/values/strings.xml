@@ -13,9 +13,21 @@
     <string name="close">Close</string>
     <string name="textfield_label">Search</string>
     <string name="filter_alt" >Filter icon button</string>
-    <string name="near_you_title">Near you</string>
-    <string name="on_map">On map ></string>
+    <string name="near_you">Near you</string>
+    <string name="on_map">On map</string>
     <string name="card_box_description">Card Illustration</string>
     <string name="add_to_favorite">Add to favorite</string>
     <string name="icon_verify">Icon Verify</string>
+    <string name="categories">Categories</string>
+    <string name="see_all">See all</string>
+    <string name="right_arrow">Right arrow</string>
+    <string name="near_walk">Near walk</string>
+    <string name="moving_icon">Moving Icon</string>
+    <string name="on_site_care">On-site care</string>
+    <string name="house_icon">House icon</string>
+    <string name="avalaible">Avalaible</string>
+    <string name="tasks">Tasks</string>
+    <string name="icon_back">Icon back</string>
+    <string name="icon_share">Icon share</string>
+    <string name="until">Until</string>
 </resources>

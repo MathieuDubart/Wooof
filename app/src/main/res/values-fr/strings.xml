@@ -14,9 +14,21 @@
     <string name="close">Fermer</string>
     <string name="textfield_label">Chercher</string>
     <string name="filter_alt">Bouton Icône Filtre</string>
-    <string name="near_you_title">Près de toi</string>
-    <string name="on_map">Sur la carte ></string>
+    <string name="near_you">Près de toi</string>
+    <string name="on_map">Sur la carte</string>
     <string name="card_box_description">Illustration de la carte</string>
     <string name="add_to_favorite">Ajouter aux favoris</string>
     <string name="icon_verify">Icône Vérifié</string>
+    <string name="categories">Catégories</string>
+    <string name="see_all">Voir tout</string>
+    <string name="right_arrow">Flèche droite</string>
+    <string name="near_walk">Balades proches</string>
+    <string name="moving_icon">Icône bouger</string>
+    <string name="on_site_care">Garde sur place</string>
+    <string name="house_icon">Icône maison</string>
+    <string name="avalaible">Disponible</string>
+    <string name="tasks">Tâches</string>
+    <string name="icon_back">Icône retour</string>
+    <string name="icon_share">Icône partager</string>
+    <string name="until">Jusqu\'au</string>
 </resources>
