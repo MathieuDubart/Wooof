@@ -30,4 +30,14 @@
     <string name="icon_back">Icon back</string>
     <string name="icon_share">Icon share</string>
     <string name="until">Until</string>
+    <string name="product_image_alt">Product image</string>
+    <string name="profile_picture">User\'s profile picture</string>
+    <string name="wallet_icon">Wallet Icon</string>
+    <string name="geo_icon">Geo icon</string>
+    <string name="paid">Paid</string>
+    <string name="money_symbol">$</string>
+    <string name="send_message">Send a message</string>
+    <string name="propose_yourself">Propose yourself</string>
+    <string name="loading_image">Loading image</string>
+    <string name="icon_star">Star icon</string>
 </resources>

@@ -51,6 +51,7 @@ android {
 
 dependencies {
 
+    implementation("io.coil-kt:coil-compose:2.5.0")
     implementation("androidx.navigation:navigation-compose:2.7.5")
     implementation("com.google.accompanist:accompanist-systemuicontroller:0.32.0")
     implementation("androidx.core:core-ktx:1.12.0")

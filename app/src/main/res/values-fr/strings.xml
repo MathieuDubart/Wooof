@@ -31,4 +31,14 @@
     <string name="icon_back">Icône retour</string>
     <string name="icon_share">Icône partager</string>
     <string name="until">Jusqu\'au</string>
+    <string name="product_image_alt">Image du produit</string>
+    <string name="profile_picture">Photo de profil de l\'utilisateur</string>
+    <string name="wallet_icon">Icône portefeuille</string>
+    <string name="geo_icon">Icône géo</string>
+    <string name="paid">Rémunéré</string>
+    <string name="money_symbol">€</string>
+    <string name="send_message">Envoyer un message</string>
+    <string name="propose_yourself">Se proposer</string>
+    <string name="loading_image">Chargement de l\'image</string>
+    <string name="icon_star">Icône étoile</string>
 </resources>
