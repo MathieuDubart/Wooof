@@ -40,11 +40,11 @@ import fr.mathieudubart.wooof.utils.montserratFamily
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun CustomSearchBar() {
+fun CustomSearchBar(modifier: Modifier = Modifier) {
     var text by remember { mutableStateOf("") }
     val screenWidth = LocalConfiguration.current.screenWidthDp
     Row(
-        modifier = Modifier.fillMaxWidth(),
+        modifier = modifier,
         horizontalArrangement = Arrangement.Center,
         verticalAlignment = Alignment.CenterVertically
     ){

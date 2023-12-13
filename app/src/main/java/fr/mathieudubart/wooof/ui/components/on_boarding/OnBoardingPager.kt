@@ -93,7 +93,7 @@ fun OnBoardingPager(modifier: Modifier = Modifier, onGetStarted: () -> Unit) {
                     }
                 },
                 onGetStarted = onGetStarted
-                )
+            )
         }
     }
 }

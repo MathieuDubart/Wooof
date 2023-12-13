@@ -11,4 +11,5 @@
     <color name="subtitle">#80000000</color>
     <color name="background">#FFFCFCFC</color>
     <color name="shadow">#08001226</color>
+    <color name="purple">#A58EFF</color>
 </resources>

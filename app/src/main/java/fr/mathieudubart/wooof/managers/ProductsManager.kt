@@ -1,6 +1,10 @@
 package fr.mathieudubart.wooof.managers
 
+import android.content.ContentValues
+import android.util.Log
 import androidx.lifecycle.ViewModel
+import com.google.firebase.Firebase
+import com.google.firebase.firestore.firestore
 import fr.mathieudubart.wooof.models.Author
 import fr.mathieudubart.wooof.models.Place
 import fr.mathieudubart.wooof.models.Product
@@ -12,19 +16,22 @@ object ProductsManager: ViewModel() {
     val products = _products.asStateFlow()
 
     fun getProducts() {
-        //todo: get products on firebase
-        //_products = retour de firebase
-        _products.value = listOf(
-            Product(
-                "1",
-                "Lorem ipsum",
-                50.0,
-                Author("Jack", "Sparrow", "", "", true),
-                "20/09/2023",
-                true,
-                "",
-                Place(1.50, 2.60, "Adresse")
-            )
-        )
+        val db = Firebase.firestore
+        val fetchedProducts = mutableListOf<Product>()
+
+        db.collection("products")
+            .get()
+            .addOnSuccessListener { result ->
+                for (document in result) {
+                    fetchedProducts.add(document.toObject(Product::class.java))
+                    Log.d(ContentValues.TAG, "${document.id} => ${document.data}")
+                    Log.d(ContentValues.TAG, "products: $products")
+                }
+
+                _products.value = fetchedProducts
+            }
+            .addOnFailureListener { exception ->
+                Log.w(ContentValues.TAG, "Error getting documents.", exception)
+            }
     }
 }

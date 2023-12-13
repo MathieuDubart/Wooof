@@ -40,63 +40,67 @@ import fr.mathieudubart.wooof.utils.montserratFamily
 @Composable
 fun UltraLargeButton(icon: Painter, contentDescription: String, title: String, subtitle: String, modifier: Modifier =Modifier) {
     Box(
-        modifier = Modifier
-            .shadow(
-                elevation = 20.dp,
-                spotColor = Color(0x08001226),
-                ambientColor = Color(0x08001226)
-            )
-            .height(72.dp)
-            .background(
-                color = Color(0xFFFFFFFF),
-                shape = RoundedCornerShape(size = 16.dp)
-            )
-            .padding(12.dp)
-    ) {
-        Row{
-            Image(painter = icon, contentDescription = contentDescription)
-
-            Column(
-                modifier = Modifier.fillMaxHeight(),
-                verticalArrangement = Arrangement.SpaceAround
-            ) {
-                Text(
-                    modifier = Modifier.padding(start = 12.dp),
-                    text = title,
-                    style = TextStyle(
-                        fontSize = 16.sp,
-                        fontFamily = montserratFamily,
-                        fontWeight = FontWeight(600),
-                        color = Color(0xFF313131)
-                    )
+        modifier = modifier
+    ){
+        Box(
+            modifier = Modifier
+                .shadow(
+                    elevation = 20.dp,
+                    spotColor = Color(0x08001226),
+                    ambientColor = Color(0x08001226)
                 )
-
-                Text(
-                    modifier = Modifier.padding(start = 12.dp),
-                    text = subtitle,
-                    style = TextStyle(
-                        fontSize = 14.sp,
-                        fontFamily = montserratFamily,
-                        fontWeight = FontWeight(500),
-                        color = Color(0x80313131),
-
-                    )
+                .height(72.dp)
+                .background(
+                    color = Color(0xFFFFFFFF),
+                    shape = RoundedCornerShape(size = 16.dp)
                 )
-            }
+                .padding(12.dp)
+        ) {
+            Row {
+                Image(painter = icon, contentDescription = contentDescription)
 
-            Column(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .padding(start = 12.dp),
-                verticalArrangement = Arrangement.Center,
-                horizontalAlignment = Alignment.End
+                Column(
+                    modifier = Modifier.fillMaxHeight(),
+                    verticalArrangement = Arrangement.SpaceAround
                 ) {
-                Image(
-                    painter = painterResource(id = R.drawable.icon_more),
-                    contentDescription = stringResource(
-                        id = R.string.right_arrow
+                    Text(
+                        modifier = Modifier.padding(start = 12.dp),
+                        text = title,
+                        style = TextStyle(
+                            fontSize = 16.sp,
+                            fontFamily = montserratFamily,
+                            fontWeight = FontWeight(600),
+                            color = Color(0xFF313131)
+                        )
                     )
-                )
+
+                    Text(
+                        modifier = Modifier.padding(start = 12.dp),
+                        text = subtitle,
+                        style = TextStyle(
+                            fontSize = 14.sp,
+                            fontFamily = montserratFamily,
+                            fontWeight = FontWeight(500),
+                            color = Color(0x80313131),
+
+                            )
+                    )
+                }
+
+                Column(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(start = 12.dp),
+                    verticalArrangement = Arrangement.Center,
+                    horizontalAlignment = Alignment.End
+                ) {
+                    Image(
+                        painter = painterResource(id = R.drawable.icon_more),
+                        contentDescription = stringResource(
+                            id = R.string.right_arrow
+                        )
+                    )
+                }
             }
         }
     }

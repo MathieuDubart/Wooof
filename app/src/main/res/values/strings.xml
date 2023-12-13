@@ -40,4 +40,18 @@
     <string name="propose_yourself">Propose yourself</string>
     <string name="loading_image">Loading image</string>
     <string name="icon_star">Star icon</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_heart">favorites</string>
+    <string name="messages">messsages</string>
+    <string name="menu_user">Account</string>
+    <string name="register_title">Register</string>
+    <string name="register_subtitle">Create an account to explore pet-sitting offers</string>
+    <string name="login_title">Login</string>
+    <string name="login_subtitle">You\'re back! Lots of animals need you!</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="confirm_password_label">Confirm password</string>
+    <string name="forgotten_password">Forgot your password?</string>
+    <string name="already_have_account">I already have an account</string>
+    <string name="create_account">Create an account</string>
 </resources>

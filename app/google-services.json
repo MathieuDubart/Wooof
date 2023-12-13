@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1050808839185",
+    "project_id": "wooof-f8d5f",
+    "storage_bucket": "wooof-f8d5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050808839185:android:4f24a7fce209df629bd5b0",
+        "android_client_info": {
+          "package_name": "fr.mathieudubart.wooof"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeFe-I0ruZP6sFKjZ3oK0M5lclyHvx7e0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -41,4 +41,18 @@
     <string name="propose_yourself">Se proposer</string>
     <string name="loading_image">Chargement de l\'image</string>
     <string name="icon_star">Icône étoile</string>
+    <string name="menu_home">Accueil</string>
+    <string name="menu_heart">favoris</string>
+    <string name="messages">messages</string>
+    <string name="menu_user">Compte</string>
+    <string name="register_title">Inscription</string>
+    <string name="register_subtitle">Crée un compte pour pouvoir explorer les offres de garde d\'animaux</string>
+    <string name="login_title">Se connecter</string>
+    <string name="login_subtitle">Te re-voilà ! Plein d’animaux ont besoin de toi !</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Mot de passe</string>
+    <string name="confirm_password_label">Confirmer le mot de passe</string>
+    <string name="forgotten_password">Mot de passe oublié ?</string>
+    <string name="already_have_account">J\'ai déjà un compte</string>
+    <string name="create_account">Créer un compte</string>
 </resources>

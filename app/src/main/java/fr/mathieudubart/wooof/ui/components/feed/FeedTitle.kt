@@ -23,7 +23,7 @@ import fr.mathieudubart.wooof.ui.theme.WooofTheme
 import fr.mathieudubart.wooof.utils.montserratFamily
 
 @Composable
-fun FeedTitle(title: String, subtitle: String) {
+fun FeedTitle(title: String, subtitle: String?) {
 
     val screenWidth = LocalConfiguration.current.screenWidthDp
 
@@ -39,30 +39,33 @@ fun FeedTitle(title: String, subtitle: String) {
             fontSize = 20.sp,
             modifier = Modifier.width((screenWidth/2).dp)
         )
-        Row(
-            modifier = Modifier
-                .width((screenWidth/2).dp),
-            horizontalArrangement = Arrangement.End,
-            verticalAlignment = Alignment.CenterVertically
-        ) {
 
-            Text(
-                text = subtitle,
-                fontSize = 13.sp,
-                lineHeight = 16.sp,
-                fontFamily = montserratFamily,
-                fontWeight = FontWeight(400),
-                color = colorResource(id = R.color.subtitle),
-                textAlign = TextAlign.Center
-            )
+        if (subtitle != null) {
+            Row(
+                modifier = Modifier
+                    .width((screenWidth/2).dp),
+                horizontalArrangement = Arrangement.End,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
 
-            Image(
-                modifier = Modifier.padding(start = 6.dp, end = 6.dp),
-                painter = painterResource(id = R.drawable.icon_more_small),
-                contentDescription = stringResource(
-                    id = R.string.right_arrow
+                Text(
+                    text = subtitle,
+                    fontSize = 13.sp,
+                    lineHeight = 16.sp,
+                    fontFamily = montserratFamily,
+                    fontWeight = FontWeight(400),
+                    color = colorResource(id = R.color.subtitle),
+                    textAlign = TextAlign.Center
                 )
-            )
+
+                Image(
+                    modifier = Modifier.padding(start = 6.dp, end = 6.dp),
+                    painter = painterResource(id = R.drawable.icon_more_small),
+                    contentDescription = stringResource(
+                        id = R.string.right_arrow
+                    )
+                )
+            }
         }
     }
 }
